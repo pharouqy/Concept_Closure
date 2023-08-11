@@ -1,0 +1,24 @@
+body {
+  max-width: 1440px;
+  background-color: brown;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  font-size: 50px;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 50px;
+}
