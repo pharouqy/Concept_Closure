@@ -21,11 +21,11 @@ function createDecrementer(initialValue) {
 }
 
 incremente.addEventListener("click", () => {
-    const incrementAction = createIncrementer(parseInt(result.textContent));
+  const incrementAction = createIncrementer(parseInt(result.textContent));
   result.textContent = incrementAction();
 });
 
 decremente.addEventListener("click", () => {
-    const decrementAction = createDecrementer(parseInt(result.textContent));
+  const decrementAction = createDecrementer(parseInt(result.textContent));
   result.textContent = decrementAction();
 });
